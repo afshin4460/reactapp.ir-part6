@@ -1,0 +1,21 @@
+input[placeholder='Search..'] {
+    width: 15%;
+    height: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid salmon;
+    font-size: inherit;
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: width .5s ease-out;
+}
+
+input[placeholder='Search..']:focus {
+    width: 85%;
+}
+
+@media(max-width: 1129px) {
+    .change {
+        display: none;
+    }
+}
